@@ -11,8 +11,12 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: [
+      { src: 'https://unpkg.com/@ionic/core@latest/dist/ionic.js' }
+    ],
   },
+  plugins: ['~/plugins/webcomponents.js'],
   /*
   ** Customize the progress bar color
   */
